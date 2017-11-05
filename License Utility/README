@@ -1,0 +1,9 @@
+The License Utility is used to generate key pairs for use with Aquatic Prime, and allows the manual generation and verification of license files.
+
+
+
+WARNING TO NEW COCOA DEVELOPERS:
+The source code to this application shouldn't be taken as best practices or used as a model for your own applications. It's not only quite old at this point, but it also has a significant number of instances of incorrect memory management and other similar issues. (Since trying to retrofit correct memory management into everything is often problematic, it's easier to just leave things as they are—it mostly works, which is good enough for a developer tool. Just don't do the same stuff in your shipping app.)
+
+Updating the License Utility to more modern APIs is issue #5, and doing memory management right from scratch is easier than trying to retrofit:
+http://github.com/bdrister/AquaticPrime/issues#issue/5
